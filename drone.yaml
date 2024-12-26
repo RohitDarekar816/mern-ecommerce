@@ -12,9 +12,6 @@ server:
   region: nyc1
 
 steps:
-  - name: Step 1
-    commands:
-      - sudo apt update && sudo apt upgrade -y
   - name: Step 2
     commands:
       - sudo apt install apt-transport-https ca-certificates curl software-properties-common
