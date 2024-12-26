@@ -11,6 +11,7 @@ server:
   size: s-1vcpu-1gb
   region: nyc1
 
+steps:
 tasks:
   - name: Update the apt package index
     apt:
@@ -77,3 +78,4 @@ trigger:
     - pull_request
   branch:
     - master
+    - main
