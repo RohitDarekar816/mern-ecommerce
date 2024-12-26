@@ -62,7 +62,7 @@ steps:
       dest: /usr/local/bin/docker-compose
       mode: "0755"
 
-  - name: Verify Docker Compose installation
+  - name: Verify Compose installation
     command: docker-compose --version
     register: docker_compose_version
 
