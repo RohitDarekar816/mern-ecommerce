@@ -14,7 +14,7 @@ server:
 steps:
   - name: Step 2
     commands:
-      - sudo apt install apt-transport-https ca-certificates curl software-properties-common
+      - sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
   - name: Step 3
     commands:
       - curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
