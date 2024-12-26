@@ -14,7 +14,9 @@ server:
 steps:
   - name: install_docker
     commands:
-      - docker --version
+      - git clone https://github.com/RohitDarekar816/mern-ecommerce.git
+      - docker-compose build
+      - docker-compose up
 
 trigger:
   event:
